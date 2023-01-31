@@ -12,12 +12,13 @@
       <ion-label position="floating">Email</ion-label>
       <ion-input formControlName="email"></ion-input>
     </ion-item>
-
     <ion-item>
       <ion-label position="floating">Password</ion-label>
       <ion-input type="password" formControlName="password"></ion-input>
     </ion-item>
-
-    <ion-button type="submit" [disabled]="form.invalid">Submit</ion-button>
+        <!-- <ion-button type="submit" [disabled]="form.invalid">Incio</ion-button> -->
+        <!-- <ion-button (click)="signUpOnclick()" type="submit" [disabled]="form.invalid">Registro</ion-button> -->
+        <ion-button (click)="loginOnClick()" type="submit">Incio</ion-button>
+        <ion-button (click)="signUpOnclick()">Registro</ion-button>
   </form>
 </ion-content>
