@@ -44,8 +44,8 @@ export class PageMapPage implements OnInit {
 
   async ngOnInit() {
     this.mergeImages([
-      '../../assets/img/parking_images/img_1.PNG',
-      '../../assets/img/parking_images/img_2.PNG'
+      '../../assets/img/parking_images/img_1-removebg-preview.png',
+      '../../assets/img/parking_images/img_2-removebg-preview.png'
     ]);
     }
   }
