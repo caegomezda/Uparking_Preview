@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "uparkingpreview": {
+      "hosting": {
+        "app": [
+          "uparkingpreview"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "uparkingpreview"
+  }
+}
